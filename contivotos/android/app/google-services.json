@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "281688650078",
+    "project_id": "autentificaciones-6f462",
+    "storage_bucket": "autentificaciones-6f462.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281688650078:android:70cb83f66de5dea8535fcf",
+        "android_client_info": {
+          "package_name": "com.continental.votacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281688650078-85nb1tflkeehrjdqd7o921ps4oeojke3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.continental.votacion",
+            "certificate_hash": "c4f57fca6f3d26ff82a64c2e175deba674ece301"
+          }
+        },
+        {
+          "client_id": "281688650078-1lcslsaatn73uah8577pgj1bkjkodarc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdDKmceW8tOjch9CXOa28scWCtg8H16kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281688650078-1lcslsaatn73uah8577pgj1bkjkodarc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "281688650078-lo5nobt4i6euivpsh2cp7edn9j1nnbb9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.conso2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

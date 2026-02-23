@@ -403,13 +403,15 @@ class _ResultadoViewState extends State<ResultadoView> {
                       children: [
                         const Icon(Icons.info_outline, color: Color(0xFF002855), size: 18),
                         const SizedBox(width: 8),
-                        Text(
-                          "El primer candidato en alcanzar ${VotacionService.VOTOS_PARA_GANAR} votos será el ganador",
-                          style: const TextStyle(
-                            fontSize: 12,
-                            color: Color(0xFF002855),
+                        Flexible(
+                          child: Text(
+                            "El primer candidato en alcanzar ${VotacionService.VOTOS_PARA_GANAR} votos será el ganador",
+                            style: const TextStyle(
+                              fontSize: 12,
+                              color: Color(0xFF002855),
+                            ),
+                            textAlign: TextAlign.center,
                           ),
-                          textAlign: TextAlign.center,
                         ),
                       ],
                     ),
